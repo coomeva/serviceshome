@@ -1,6 +1,0 @@
-{
-  "name": "serviceshome",
-  "description": "consume services for google home",
-  "repository": "https://github.com/coomeva/serviceshome",
-  "keywords": ["api.ai", "dialogflow", "natural language"]
-}
