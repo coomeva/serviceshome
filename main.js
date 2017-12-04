@@ -20,9 +20,8 @@ app.post('/apis', function(req, response){
         console.log('welcome ' + resultado);
         return response.json({
         speech: resultado,
-        displayText: resultado,
-        source: 'serviceshome'
-      });
+        displayText: resultado
+        });
     });
 
 
