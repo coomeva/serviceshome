@@ -28,6 +28,7 @@ app.get('/apis', function(req, response){
 
 function callConsultAssociate(id_number){
     return new Promise((resolve, reject) => {
+        var host = 'ec2-184-73-133-117.compute-1.amazonaws.com';
         var port = '8080';
         var path = '/consultacedula/services/rest/' + id_number;
         
