@@ -28,6 +28,12 @@ app.post('/apis', function(req, response){
 
 function callConsultAssociate(id_number){
     return new Promise((resolve, reject) => {
+        
+        var sum = id_number + 3;
+        
+         resolve(sum);
+        
+        /*
         var host = 'ec2-184-73-133-117.compute-1.amazonaws.com';
         var port = '8080';
         var path = '/consultacedula/services/rest/' + id_number;
@@ -57,7 +63,7 @@ function callConsultAssociate(id_number){
             res.on('error', (error) => {
                 reject(error);
             });
-        });
+        });*/
     });
 }
 
