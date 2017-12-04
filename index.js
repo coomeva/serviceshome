@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}))
 
 
-app.post('/apis', function(req, response){
+app.get('/apis', function(req, response){
  
  var id_number = req.result.parameters.number;
 
