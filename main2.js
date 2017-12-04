@@ -11,12 +11,6 @@ app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}))
 
-
-app.get('/', function(req, res){
-    res.render("welcome");
-});
-
-
 app.post('/apis', function(req, response){
  
  var id_number = req.result.parameters.number;
