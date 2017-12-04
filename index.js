@@ -1,5 +1,5 @@
-var http = require('http');
-var express = require('express'),
+const http = require('http');
+const express = require('express'),
     bodyParser = require('body-parser'),
     request = require('request');
 
